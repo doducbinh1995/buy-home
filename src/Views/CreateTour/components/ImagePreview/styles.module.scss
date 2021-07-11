@@ -3,4 +3,11 @@ $image-width: 50px;
 .image {
   width: $image-width;
   height: $image-width;
+  cursor: pointer;
+}
+
+.active {
+  transition-duration: 0.5s;
+  border: 2px solid black;
+  transform: scale(1.2);
 }

@@ -1,3 +1,10 @@
+:root {
+  --spacers: 1rem;
+  --primaryColor: #007bff;
+  --successColor: #28a745;
+  --whiteColor: #ffffff;
+}
+
 .text-left {
   text-align: left;
 }
@@ -28,4 +35,138 @@
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.p/* Margin */
+.m-0 {
+  margin: 0 !important;
+}
+
+.m-1 {
+  margin: calc(var(--spacers) * 0.25) !important;
+}
+
+.m-2 {
+  margin: calc(var(--spacers) * 0.5) !important;
+}
+
+.m-3 {
+  margin: calc(var(--spacers) * 1) !important;
+}
+
+.m-4 {
+  margin: calc(var(--spacers) * 1.5) !important;
+}
+
+.m-5 {
+  margin: calc(var(--spacers) * 1.5) !important;
+}
+
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+.ml-1 {
+  margin-left: calc(var(--spacers) * 0.25) !important;
+}
+
+.ml-2 {
+  margin-left: calc(var(--spacers) * 0.5) !important;
+}
+
+.ml-3 {
+  margin-left: calc(var(--spacers) * 1) !important;
+}
+
+.ml-4 {
+  margin-left: calc(var(--spacers) * 1.5) !important;
+}
+
+.ml-5 {
+  margin-left: calc(var(--spacers) * 1.5) !important;
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mr-1 {
+  margin-right: calc(var(--spacers) * 0.25) !important;
+}
+
+.mr-2 {
+  margin-right: calc(var(--spacers) * 0.5) !important;
+}
+
+.mr-3 {
+  margin-right: calc(var(--spacers) * 1) !important;
+}
+
+.mr-4 {
+  margin-right: calc(var(--spacers) * 1.5) !important;
+}
+
+.mr-5 {
+  margin-right: calc(var(--spacers) * 1.5) !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-1 {
+  margin-top: calc(var(--spacers) * 0.25) !important;
+}
+
+.mt-2 {
+  margin-top: calc(var(--spacers) * 0.5) !important;
+}
+
+.mt-3 {
+  margin-top: calc(var(--spacers) * 1) !important;
+}
+
+.mt-4 {
+  margin-top: calc(var(--spacers) * 1.5) !important;
+}
+
+.mt-5 {
+  margin-top: calc(var(--spacers) * 1.5) !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-1 {
+  margin-bottom: calc(var(--spacers) * 0.25) !important;
+}
+
+.mb-2 {
+  margin-bottom: calc(var(--spacers) * 0.5) !important;
+}
+
+.mb-3 {
+  margin-bottom: calc(var(--spacers) * 1) !important;
+}
+
+.mb-4 {
+  margin-bottom: calc(var(--spacers) * 1.5) !important;
+}
+
+.mb-5 {
+  margin-bottom: calc(var(--spacers) * 1.5) !important;
+}
+
+/* Border radius */
+.border-radius-2 {
+  border-radius: 2px !important;
+}
+
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.border-radius-10 {
+  border-radius: 10px !important;
 }
