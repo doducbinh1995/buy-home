@@ -1,0 +1,9 @@
+$width: 25px;
+.hotspot {
+  width: $width;
+  height: $width;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
